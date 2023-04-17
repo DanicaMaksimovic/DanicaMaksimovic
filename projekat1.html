@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Projekat1</title>
+	<link rel="stylesheet" type="text/css" href="projekat1.css">
+</head>
+<body>
+	<div class="menu">
+		<div>
+			<nav class="nav">
+				<a href="#poc">Početna</a>
+				<a href="#gal">Galerija</a>
+				<a href="#kal">Kalkulator</a>
+				<a href="#kon">Kontakt</a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="pocetna" id="poc">
+		<h1>Početna</h1>
+		<div class="slike">
+			<img src="slika1.jpg">
+			<img src="slika2.jpg">
+		</div>
+	</div>
+
+	<div class="linija"></div>
+
+
+			<h3>Galerija</h3>
+	<div class="slider-wrapper" id="gal">
+        <button id="left-btn"><i class="arrow"></i></button>
+        <div class="slider-images">
+        	<img src="gklasa.jpg">
+        	<img src="bmw.jpg">
+        	<img src="audi.jpg">
+        </div>
+        <button id="right-btn"><i class="arrow"></i></button>
+    </div>
+
+
+    	<h3>Kalkulator</h3>
+	<div class="kalkulator" id="kal">
+		<div class="container">
+			<h3>Kamatna stopa: <input type="number" min="1" id="stopa"> %</h3> <br>
+			<h3>Cena automobila <input type="number" min="1" id="cena"> €
+				<input type="number" min="1" id="godine"> godina?</h3>
+
+			<button onclick="Calculator()">Izračunaj</button>
+		</div>
+		<div class="div">
+		</div>
+
+
+	<div class="kontakt" id="kon">
+		<div class="d1">Broj telefona: <br> 060/000-000</div>
+		<div class="d2">Mail: <br><address>mail@gmail.com</address></div>
+		<div class="d3">Adresa: <br> Adresa 1b</div>
+	</div>
+<script src="projekat1.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+body{
+	width: 90%;
+	margin: 0px auto;
+}
+.nav{
+	display: flex;
+}
+.nav a{
+	flex-grow: 1;
+	text-align: center;
+	display: block;
+	padding: 20px 0px;
+	text-decoration: none;
+	color: #66ccff;
+	background-color: #005580;
+}
+.pocetna {
+	color: #66ccff;
+	text-align: center;
+	background: url('plava.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.pocetna h1{
+	text-align: centar;
+	font-size: 8rem;
+	background: blue url('img.jpg');
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	filter: drop-shadow(5px 11px 13px #fff);
+	margin-top: 0px;
+	padding-top: 50px;
+}
+.pocetna img{
+	width: 500px;
+	height: 200px;
+	padding: 0px;
+	padding-top: 260px;
+	filter: grayscale(100%);
+}
+.linija{
+	height: 5px;
+	width: 80%;
+	background-color: #66ccff;
+	transition: all 1s ease;
+}
+
+
+h3{
+	color: #66ccff;
+	text-align: center;
+	font-size: 5rem;
+}
+.slider-wrapper {
+    max-width: 1000px;
+    height: 450px;
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.slider-wrapper .slider-images {
+	height: 100%;
+}
+.slider-wrapper .slider-images img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: none;
+}
+.slider-wrapper .slider-images img:first-child {
+	display: block;
+}
+.slider-wrapper button {
+    height: 65px;
+    width: 65px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    top: 40%;
+    position: absolute;
+	z-index: 999;
+}
+.slider-wrapper button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+.slider-wrapper #right-btn {
+    right: 0;
+}
+.slider-wrapper #right-btn .arrow {
+    transform: rotate(-45deg);
+}
+.slider-wrapper #left-btn {
+    left: 0;
+}
+.slider-wrapper #left-btn .arrow {
+    transform: rotate(135deg);
+}
+
+.kalkulator{
+	background: url('novac.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.kalkulator p{
+	font-size: bold;
+	color: black;
+	font-size: 18px;
+}
+.container {
+	max-width: 800px;
+	margin: auto;
+	border: 3px solid blue;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 20px;
+}
+
+.container input {
+	max-width: 80px;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.container button {
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: blue;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.kontakt{
+	background-color: #005580;
+	color: #66ccff;
+	display: flex;
+	text-align: center;
+}
+.kontakt .d1{
+	flex-grow: 1;
+}
+.kontakt .d2{
+	flex-grow: 1;
+}
+.kontakt .d3{
+	flex-grow: 1;
+}
